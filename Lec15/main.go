@@ -22,4 +22,7 @@ func main() {
 		fmt.Printf("After initialization type %T and value %v\n", zeroPointer, zeroPointer)
 	}
 
+	// 4.
+	//asfasfasfljfldjasfsdjl
+
 }
