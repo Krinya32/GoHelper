@@ -24,6 +24,6 @@ func main() {
 
 	// 4.
 
-	// 5. qweqwe Bars
+	// 5. 
 
 }
