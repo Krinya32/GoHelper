@@ -18,11 +18,11 @@ type Student struct {
 // 4. Встроенные структуры (когда мы добавляем поля одной  структуры к другой)
 
 type Professor struct {
-	firstname  string
-	lastname   string
-	age        int
-	greatwork  string
-	papers     []string
+	firstname string
+	lastname  string
+	age       int
+	greatwork string
+	// papers     []string  - добавление этого поля делает структуру несравнимой (мапа, слайс)
 	Univercity // В этом месте происходит добавление всех полей структуры Uni в Prоfessor
 }
 
