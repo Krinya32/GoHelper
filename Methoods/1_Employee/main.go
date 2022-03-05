@@ -22,10 +22,11 @@ func (e Employee) DisplayInfo() {
 func main() {
 	emp := Employee{
 		name:     "Bob",
-		position: "Senior",
+		position: "Senior Golang developer",
 		salary:   3000,
 		currency: "USD",
 	}
 	// 2. Вызов метода
 	emp.DisplayInfo()
+
 }
