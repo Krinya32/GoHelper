@@ -1,6 +1,6 @@
 package main // Говорю что это пакет main, в нем определена функция main
 import (
-	"PackageGo/rectangle" // Прописываем путь до пакета rectangle
+	"GoHelper/PackageGo/rectangle" // Прописываем путь до пакета rectangle
 	"fmt"
 )
 
@@ -49,4 +49,10 @@ func main() {
 	}
 
 	fmt.Println(newR)
+
+	// 10. Если создан файл go.mod
+	// То сборка облегчается
+	// go build (Компилятор заглядывает в go.mod файл. Видит отправную точку)
+	// go install
+	//11. ВСЕГДА ИСПОЛЬЗУЙТЕ GO.MOD ПРИ ИНИЦИАЛИЗЦИИ ВАШЕГО ПРОЕКТА!
 }

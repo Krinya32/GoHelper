@@ -1,5 +1,6 @@
 package main // Также находится в main, но функция main одна на весь пакет
 
+//Реализуем четыре функции в модуле calculator
 func Add(a, b int) int {
 	return a + b
 }

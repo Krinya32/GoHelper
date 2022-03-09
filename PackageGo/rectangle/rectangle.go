@@ -2,7 +2,7 @@ package rectangle // Т.к. пакет main один, тут мы создаем
 
 type Rectangle struct {
 	A, B  int    // Начинается с большой буквы
-	color string // Начинается с маленькой буквы
+	color string // Начинается с маленькой буквы/ ДАнное поле больше не экспортируемо
 }
 
 func New(newA int, newB int, newColor string) *Rectangle {
