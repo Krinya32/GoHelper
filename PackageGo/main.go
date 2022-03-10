@@ -1,6 +1,6 @@
 package main // Говорю что это пакет main, в нем определена функция main
 import (
-	"GoHelper/PackageGo/rectangle" // Прописываем путь до пакета rectangle
+	"PackageGo/rectangle" // Прописываем путь до пакета rectangle
 	"fmt"
 )
 
@@ -20,7 +20,7 @@ func main() {
 	// fmt.Println(resAdd, resSub, resMult, resDiv)
 	//4. Для того чтобы запустить все файлы в пакете надо выполнить:
 	//* go run main.go go run calculate.go
-	//* go build  main.go calculate.goo calculator.go
+	//* go build  main.go calculate.go calculator.go
 	//* go install main.go calculator.go
 
 	//5. Вы обратили внимание, что функции которые затаскиваются в main начинаются с большой буквы. В Go принято, если имя сущности (переменная, функция, поля в структуре, структура, метод, интерфейс и т.д.) начинается с Большой Буквы - данную сущность можно экспортировать (она передаваема в другие модули и пакеты)
